@@ -1,0 +1,57 @@
+.title {
+  margin-top: 5px !important;
+
+  min-height: 55px;
+  max-height: 55px;
+  color: #130f40;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.mentor {
+  color: #999;
+  font-weight: 500;
+  margin: 0 10px 10px 0;
+}
+
+.mentor:last-child {
+  color: #ff630e;
+}
+
+.description {
+  margin-top: 10px;
+  font-weight: 400;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  height: 75px;
+}
+
+.price {
+  font-weight: bold;
+  color: firebrick;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.mentorAvatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #999;
+  padding: 2px;
+  background-color: #fff;
+  top: -70px;
+  left: 20px;
+  border-radius: 5px;
+}
+
+.mentorIcon {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}

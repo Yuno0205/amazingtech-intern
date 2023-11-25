@@ -1,0 +1,28 @@
+.wrapper {
+  width: 25%;
+  min-height: 800px;
+  padding: 40px 10px 20px 40px;
+}
+
+.title {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.832);
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 740px) {
+  .wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+}

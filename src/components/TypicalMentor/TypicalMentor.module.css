@@ -1,0 +1,39 @@
+.container {
+  margin: 20px auto 40px;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 4 * 1.2em;
+}
+
+.mentorTitle {
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+
+.item {
+  margin: 0 15px;
+}
+
+.title {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #0e0a38;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}

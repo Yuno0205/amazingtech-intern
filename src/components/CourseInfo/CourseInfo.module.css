@@ -1,0 +1,47 @@
+.content {
+  width: 66.67%;
+  min-height: 800px;
+  padding: 10px 20px;
+}
+
+.time {
+  width: 33.33%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.cardContent {
+  width: 100%;
+}
+
+.cardInfo h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.classInfo {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.colorText {
+  color: var(--primary);
+  font-size: 1.7rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  color: #130f40 !important;
+  flex: 1;
+}
+
+.route {
+  color: #130f40;
+  padding: 10px 5px;
+  font-size: 17px;
+  font-weight: 500;
+  border-bottom: none;
+}
+
+.route::selection {
+  color: var(--primary);
+}
+
+.route:hover {
+  color: var(--primary) !important;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 80px;
+  }
+}

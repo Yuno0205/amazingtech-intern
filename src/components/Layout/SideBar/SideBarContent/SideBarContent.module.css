@@ -1,0 +1,35 @@
+.wrapper {
+  width: 75%;
+  padding: 20px 80px 30px 30px;
+}
+
+.item {
+  width: 33.333333%;
+  margin-bottom: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 740px) {
+  .item {
+    width: 100%;
+  }
+
+  .filter {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+}

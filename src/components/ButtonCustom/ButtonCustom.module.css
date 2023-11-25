@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 15px 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.wrapper + .wrapper {
+  margin-left: 20px;
+}
+
+.wrapper:hover {
+  color: var(--primary) !important;
+  background-color: #fff !important;
+  border: 1px solid var(--primary) !important;
+}

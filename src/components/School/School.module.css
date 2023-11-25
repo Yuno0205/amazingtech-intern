@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 50px 0;
+  background-color: #f5f7fc;
+}
+
+.title {
+  font-size: 35px !important;
+  line-height: 41px !important;
+  font-weight: 700;
+  color: #0e0a38;
+  padding-top: 50px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.item {
+  height: 100px;
+  object-fit: cover;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1320px;
+  }
+}
